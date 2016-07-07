@@ -2,14 +2,109 @@
 
 body{
     margin: 0;
-padding: 0;
- height: auto;
- font-family: arial;
+    padding: 0;
+    height: 1130px;
+    font-family: arial;
 }
 
-h1, h2{
-    text-align: center;
+img,div, ul, li{
+    margin: 0;
+    padding: 0;
 }
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; };
+
+h1, h2{
+
+}
+
+h1{
+    top: 4rem;
+    left: 5rem;
+    z-index: 1;
+    position: absolute;
+}
+
+h2{
+    top: 10rem;
+    left: 5rem;
+    z-index: 1;
+    position: absolute;
+}
+
+#individual-header{
+    font-family: Playball-Regular;
+    top: 45rem;
+    left: 90rem;
+    position: absolute;
+}
+
+#team-header{
+    font-family: Playball-Regular;
+    top:9rem;
+    color: #fff;
+}
+
+#check1-btn{
+    top: 53rem;
+    left: 100rem;
+    position: absolute;
+}
+
+
+#check2-btn{
+    top: 17rem;
+    left: 8rem;
+    position: absolute;
+}
+
+.team-banner{
+    bottom: 1rem;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    position: relative;
+}
+
+/*Individual HTML*/
+.individual-container img:hover{
+    border:1px solid #fff;
+}
+
+.individual-container img{
+    display: block;
+    /*width: auto;*/
+    /*padding: 0.5rem;*/
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 1px 1px 2px #000;
+}
+
+.individual-container li{
+    float: left;
+    margin: 2rem;
+}
+
+.individual-container ul{
+    list-style: none;
+}
+
+.individual-container{
+    width: 1000px;
+    margin: 3rem auto 0;
+    
+}
+
+.content{
+    padding: 3rem;
+    display: block;
+    background-color: #b3ffff;
+    overflow: hidden;
+}
+
+
 
 .fa{
     cursor: pointer;
@@ -22,7 +117,7 @@ footer{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color:rgba(0,0,0,0.9);
+    background-color:rgba(0,0,0,0.7);
     text-align: right;
     padding: 1rem;
 }
