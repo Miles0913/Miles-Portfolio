@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Miles's Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -17,11 +17,24 @@
   <li role="presentation"><a href="#">Profile</a></li>
   <li role="presentation"><a href="#">Messages</a></li>
 </ul>
+  
 
-	<div class="jumbotron">
+	<div class="banner-wrapper">
+		<div class="head-banner">
+		<img src="image/banner0.jpg">
 		<h1 class="animated pulse header1">Hello,</h1>
 		<h2 class="animated pulse header2">Welcome to Miles's Portfolio Website</h2>
-		
+		</div>
+		<div class="individual-banner">
+		<img src="image/banner1.jpg">
+		<h1 id="individual-header">Individual Artwroks</h1>
+		<p><a class="btn btn-primary btn-lg" href="#" role="button" id="check1-btn">Check It</a></p>
+		</div>
+		<div class="team-banner">
+		<img src="image/banner2.jpg">
+		<h1 id="team-header">Team Project</h1>
+		<p><a class="btn btn-primary btn-lg" href="#" role="button" id="check2-btn">Check It</a></p>
+		</div>
 	</div>
 
 
@@ -30,13 +43,19 @@
 
 	<footer>
       <ul>
+      	<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
       </ul>
     </footer>
 	
 	<script src="js/jquery-1.12.3.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/portfolio.js"></script>
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
 </body>
 </html>
