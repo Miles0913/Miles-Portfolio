@@ -1,6 +1,11 @@
 /** {margin: 0;padding: 0;}*/
 
 body{
+    background: url(../image/bg01.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     margin: 0;
     padding: 0;
     height: 1130px;
@@ -12,12 +17,22 @@ img,div, ul, li{
     padding: 0;
 }
 
-article, aside, figure, footer, header, hgroup,
-menu, nav, section { display: block; };
 
-h1, h2{
+/*Nav Bar*/
 
+.nav li a:hover{
+    color:#000099;
 }
+
+.nav:hover{
+    color: #4da6ff;
+}
+
+.nav-tabs li a{
+    color: #fff;
+}
+
+/**/
 
 h1{
     top: 4rem;
@@ -69,15 +84,17 @@ img{
     position: relative;
 }
 
-/*Individual HTML*/
+/*Individual Html*/
 .individual-container img:hover{
     border:1px solid #fff;
 }
 
 .individual-container img{
+    width: 150px;
+    height: 196px;
     display: block;
-    /*width: auto;*/
-    /*padding: 0.5rem;*/
+    padding: 0.5rem;
+    margin: 0 auto;
     background-color: rgba(255,255,255,0.6);
     box-shadow: 1px 1px 2px #000;
 }
@@ -92,15 +109,15 @@ img{
 }
 
 .individual-container{
-    width: 1000px;
-    margin: 3rem auto 0;
+    width: 850px;
+    margin: 5rem auto;
     
 }
 
 .content{
-    padding: 3rem;
+    padding: 3rem 3rem 5rem 13rem;
     display: block;
-    background-color: #b3ffff;
+    background-color: rgba(255, 255, 255, 0.3);
     overflow: hidden;
 }
 
